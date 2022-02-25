@@ -1,0 +1,25 @@
+# Comment out this part if you want to use the automation-test execution by nodejs
+# automation-test-nodejs:
+#   cache:
+#     paths:
+#       - node_modules/
+#   image: node:latest
+#   script:
+#     - cd samples/automation-test-nodejs
+#     - npm install
+#     - npm run automation-test-script
+
+# Comment out this part if you want to use the test execution by a packaged app (written in Go) with more custom environment variables
+# execute-test:
+#   script:
+#     - cd samples/execute-test
+#     - chmod u+x test.sh
+#     - ./test.sh
+
+# Comment out this part if you want to use the upload app to Kobiton Repo service
+# upload-app:
+#   script:
+#     - cd samples/upload-app
+#     - chmod u+x upload.sh
+#     - ./upload.sh
+
