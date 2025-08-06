@@ -166,7 +166,7 @@ automation-test-nodejs:
 
 > For more information about how to execute automation test(s) on Kobiton, you can visit:
 >
-> - [Kobiton documentation](https://support.kobiton.com/hc/en-us)
+> - [Kobiton documentation](https://docs.kobiton.com)
 > - [Kobiton sample automation test scripts in other languages](https://github.com/kobiton/samples)
 
 ### 3. Automation Test Execution
